@@ -1,5 +1,24 @@
-p{
-    color:red;
-    font-family:arial;
+h1{
+    text-align:center;
+    background-color: darkgrey;
+    text-transform: uppercase;
+    text-size-adjust: 20px;
 
+}
+h2{
+    text-align: left;
+    background-color: darkgrey;
+    text-transform: uppercase;
+
+}
+
+h3{
+    text-align: left;
+    
+}
+
+p{
+    color:blakc;
+    font-family:arial;
+    line-height: 30px;
 }
