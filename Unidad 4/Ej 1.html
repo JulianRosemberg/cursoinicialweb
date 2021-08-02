@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+            <meta charset="utf-8">
+            <title>Ejercicio 1</title>
+
+    </head>
+
+    <bodie>
+        <script>
+            var distancia = 0;
+
+            distancia = prompt('Ingrese la distancia del viaje que planea hacer: ');
+
+            if(distancia > 0 && distancia <= 1000){
+                document.write('A pie');
+            }else if(distancia > 1000 && distancia <= 10000){
+                document.write('En bicicleta');
+            }else if(distancia > 10000 && distancia <= 30000){
+                document.write('En colectivo');
+            }else if(distancia > 30000 && distancia <= 100000){
+                document.write('En auto');
+            }else if(distancia > 100000){
+                document.write('En avion');
+            }else{
+                document.write('Fuera de rango, volver a intentar. ')
+            }
+        </script>
+
+
+    </bodie>
+
+
+</html>

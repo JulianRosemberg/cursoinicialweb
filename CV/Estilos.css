@@ -1,13 +1,13 @@
 h1{
     text-align:center;
-    background-color: darkgrey;
+    background-color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-size-adjust: 20px;
 
 }
 h2{
     text-align: left;
-    background-color: darkgrey;
+    background-color: rgb(255, 255, 255);
     text-transform: uppercase;
 
 }
@@ -18,7 +18,25 @@ h3{
 }
 
 p{
-    color:blakc;
+    color:black;
     font-family:arial;
     line-height: 30px;
+}
+
+#menu{
+	background-color: rgb(168, 34, 34);
+	/* display: inline-flex; */
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.opciones{
+	background-color: rgb(168, 34, 34);
+	width: 120px;
+	height: 30px;
+	margin: 20px;
+	font-size: 25px;
+    
+    
 }
